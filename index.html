@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você acorda em um hospital vazio. As luzes piscam intermitentemente e o cheiro de mofo no ar é sufocante. Sua cabeça dói, como se você estivesse dormindo por dias. Aos poucos, as lembranças retornam: uma febre intensa, sirenes, o caos na cidade. Algo muito errado aconteceu.
+
+Você se levanta da cama, ainda tonto, e vê uma janela quebrada. Lá fora, o silêncio reina, interrompido apenas por ruídos distantes. Não há ninguém por perto.
+</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o hospital e tentar entender o que está acontecendo.</button>
+            <button class="btn-proximo" data-proximo="2">Sair imediatamente e procurar uma forma de voltar para casa.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide explorar o hospital. Ao andar pelos corredores vazios, você percebe marcas de sangue nas paredes e portas trancadas. Há sinais de luta recente, mas ninguém está à vista. O medo começa a crescer, mas você precisa de respostas.
+
+Ao virar uma esquina, você ouve um gemido baixo. Algo ou alguém está atrás de uma porta entreaberta. Você pode investigar, mas pode ser perigoso.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar o som e abrir a porta</button>
+            <button class="btn-proximo" data-proximo="4">Seguir sem mapa e confiar na memória para voltar para casa.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide abrir a porta cuidadosamente. Dentro, encontra um homem ferido, com um corte profundo no braço. Ele parece consciente, mas exausto. "Me ajude...", ele sussurra. "Eles estão por toda parte..." 
+
+Você percebe que ele foi atacado por algo ou alguém, mas não está claro se ele vai sobreviver.
+</p>
+            <button class="btn-proximo" data-proximo="5">Ajudar o homem e tentar tratá-lo</button>
+            <button class="btn-proximo" data-proximo="6">Deixá-lo e continuar sua busca.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Decidido a não correr riscos, você segue pelos corredores em direção à saída. Ao atravessar a área de emergência, você encontra um armário de suprimentos. Ele está trancado, mas pode conter medicamentos ou equipamentos úteis.</p>
+            <button class="btn-proximo" data-proximo="7">Tentar arrombar o armário.</button>
+            <button class="btn-proximo" data-proximo="8">Ignorar o armário e continuar até a saída.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você pega o mapa e percebe que sua casa fica a algumas quadras de distância. No caminho, há uma delegacia de polícia. Se as coisas estão tão ruins quanto parecem, pode ser útil pegar alguma arma antes de ir para casa.</p>
+            <button class="btn-proximo" data-proximo="9">Ir diretamente para a delegacia e procurar armas.</button>
+            <button class="btn-proximo" data-proximo="10">Seguir direto para casa e evitar possíveis confrontos.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Confiando na sua memória, você avança pelas ruas, mas logo percebe o quão desorientado está. Barulhos estranhos ecoam pelos becos, e vultos se movem à distância. Sem o mapa, você terá que escolher entre seguir por uma rua principal aberta ou cortar por um beco estreito, mas mais rápido.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir pela rua principal, onde é mais fácil escapar se houver perigo.</button>
+            <button class="btn-proximo" data-proximo="12">Cortar pelo beco e tentar evitar os zumbis, arriscando se perder.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
